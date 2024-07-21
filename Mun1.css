@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+ padding: 0%;
+}
+.d1{
+    display: flex;
+  justify-content: center;
+}
+.d1 ul,li{
+       display: flex;
+       margin: 10px;
+       
+}
+.d1 ul li a{
+    text-decoration: none;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: greenyellow;
+    color: black;
+    font-size: 30px;
+}
+.d1 ul li a:hover{
+    background-color: rgb(171, 195, 136);
+    color: white;
+}
